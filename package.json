@@ -2,7 +2,6 @@
   "name": "shopping-cart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Pierce-44.github.io/shopping-cart",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
@@ -50,5 +49,6 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
     "prettier": "2.6.2"
-  }
+  },
+  "homepage": "https://myusername.github.io/my-app"
 }
