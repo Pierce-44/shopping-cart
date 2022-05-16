@@ -1,0 +1,43 @@
+const CartItemDisplay = {
+  car1: 'hiddenCartItem',
+  car2: 'hiddenCartItem',
+  car3: 'hiddenCartItem',
+  car4: 'hiddenCartItem',
+  car5: 'hiddenCartItem',
+  car6: 'hiddenCartItem',
+  car7: 'hiddenCartItem',
+  car8: 'hiddenCartItem',
+  car9: 'hiddenCartItem',
+  car10: 'hiddenCartItem',
+  car11: 'hiddenCartItem',
+  car12: 'hiddenCartItem',
+  car13: 'hiddenCartItem',
+  car14: 'hiddenCartItem',
+  car15: 'hiddenCartItem',
+  car16: 'hiddenCartItem',
+  car17: 'hiddenCartItem',
+  car18: 'hiddenCartItem',
+};
+
+const CarItemCount = {
+  car1: 0,
+  car2: 0,
+  car3: 0,
+  car4: 0,
+  car5: 0,
+  car6: 0,
+  car7: 0,
+  car8: 0,
+  car9: 0,
+  car10: 0,
+  car11: 0,
+  car12: 0,
+  car13: 0,
+  car14: 0,
+  car15: 0,
+  car16: 0,
+  car17: 0,
+  car18: 0,
+};
+
+export { CartItemDisplay, CarItemCount };

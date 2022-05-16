@@ -1,0 +1,231 @@
+.manufacturerPageMain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #181818;
+}
+
+.manufacturerPageSubHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.manufacturerPageTitle {
+  margin-top: 0px;
+}
+
+.manufacturerPageSubHeading img {
+  height: 80px;
+  width: auto;
+  
+}
+
+.manufacturerPageContainer {
+  display: flex;
+}
+
+.allCarsHighLight {
+  background: linear-gradient(to right, #71da1c 50%, #f0f0f0 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 0.3s ease;
+}
+
+.fillerSideImg {
+  height: 50px;
+}
+
+.manufacturerPageCars {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+}
+
+.manufacturerPageCarsDivs {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  padding: 5px;
+  cursor: pointer;
+  transition:all 0.3s ease;
+}
+
+.manufacturerPageCarsDivs:hover .ferrariPageCarStats {
+  background-position:left bottom;
+  color: white;
+}
+
+.ferrariPageCarStats {
+  background: linear-gradient(to top, #da291c 50%, #f0f0f0 50%);
+}
+
+.manufacturerPageCarStats {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-size: 200% 200%;
+  background-position:bottom top;
+  transition:all 0.3s ease;
+  height: 200px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.manufacturerStatsCarTitle{
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+
+
+
+.manufacturerSideTab {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 200px;
+  height: min-content;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.manufacturerTitle {
+  border-bottom: 1px solid;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.manufacturerSideTabDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.manufacturerSideDiv p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.manufacturerSideDiv p:hover {
+  background-position:left bottom;
+  color: white;
+}
+
+.manufactuererIconsSideDiv {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.manufactuererIconsSideDiv img {
+  height: 20px;
+  width: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  
+}
+
+
+
+
+@media only screen and (max-width: 1015px) {
+  .manufacturerTitle {
+    font-size: 1.1rem;
+  }
+  .manufacturerSideDiv p {
+    font-size: 0.7rem;
+    padding-right: 15px;
+  }
+  .manufactuererIconsSideDiv img {
+    height: 15px;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .fillerSideImg {
+    height: 35px;
+  }
+  .manufactuererIconsSideDiv {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1015px) {
+  .manufacturerPageMain {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .manufacturerPageMain {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .manufacturerStatsText {
+    font-size: 0.7rem;
+  }
+  .price {
+    font-size: 0.7rem;
+  }
+  .manufacturerPageCarStats {
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .manufacturerPageCarsDivs {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+  }
+  .manufacturerPageCarStats {
+    justify-content: flex-start;
+    height: auto;
+    text-align: center;
+    
+  }
+  .manufacturerStatsText, .price{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .manufacturerPageCars {
+    gap: 100px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .manufactuererIconsSideDiv {
+    display: none;
+  }
+  .manufacturerSideTab {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .manufacturerPageCarsDivs img {
+    height: 120px;
+    width: auto;
+  }
+  .manufacturerTitle {
+    font-size: 0.9rem;
+  }
+}

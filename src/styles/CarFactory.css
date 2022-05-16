@@ -1,0 +1,383 @@
+
+.CarFactoryMain {
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #181818;
+}
+
+.carFactoryContentContainer {
+  display: flex;
+}
+
+.carFactoryCarContent {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+}
+
+.carFactoryMainImage {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  align-self: center;
+}
+
+.CarFactoryTitleContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  margin-bottom:25px;
+}
+
+.CarFactoryTitleText {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+
+.carFactorySideTab {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 200px;
+  height: min-content;
+  background-color: #f0f0f0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.carFactorySideTitle {
+  color: #181818;
+  border-bottom: 1px solid;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0px;
+  white-space: nowrap;
+}
+
+.carFactorySideTabDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carFactoryCarNamesSideDiv p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.carFactoryCarNamesSideDiv p:hover {
+  background-position:left bottom;
+  color: white;
+}
+
+.carFactoryIconsSideDiv {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.carFactoryIconsSideDiv img {
+  height: 20px;
+  width: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  
+}
+
+.addToBagButton {
+  margin-top: auto;
+}
+
+.addToBagButton, .buyNowButton {
+  width: 100%;
+  border: 1px solid #181818;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition:all 0.3s ease;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 400px;
+  margin-bottom: 0px;
+}
+
+.buyCarTitle {
+  margin-top: 0px;
+  border-bottom: 1px solid #181818;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.buyCarContainer {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px;
+  background-color: #f0f0f0; */
+}
+
+.carFactoryPrice {
+  font-weight: bold;
+}
+
+
+/* ----------- Ferrari CSS ---------- */
+
+.ferrariLogo {
+  height: 50px;
+  width: auto;
+}
+
+.ferrariRed.buyNowButton {
+  background: linear-gradient(to right, #da291c 50%, white 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.ferrariRed.addToBagButton{
+  background: linear-gradient(to right, #da291c 50%, #181818 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  color: white;
+}
+
+.ferrariRed.buyNowButton:hover, .ferrariRed.addToBagButton:hover  {
+  background-position:left bottom;
+  border: 1px solid #da291c;
+  color: white;
+}
+
+/* ----------- Mclaren CSS ---------- */
+
+.mclarenLogo {
+  height: 50px;
+  width: auto;
+}
+
+.mclarenOrange.buyNowButton {
+  background: linear-gradient(to right, #ff8700 50%, white 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.mclarenOrange.addToBagButton{
+  background: linear-gradient(to right, #ff8700 50%, #181818 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  color: white;
+}
+
+.mclarenOrange.buyNowButton:hover, .mclarenOrange.addToBagButton:hover  {
+  background-position:left bottom;
+  border: 1px solid #ff8700;
+  color: white;
+}
+
+/* ----------- Lambo CSS ---------- */
+
+.lamboLogo {
+  height: 50px;
+  width: auto;
+}
+
+.lamboGold.buyNowButton {
+  background: linear-gradient(to right, #D8A016 50%, white 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.lamboGold.addToBagButton{
+  background: linear-gradient(to right, #D8A016 50%, #181818 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  color: white;
+}
+
+.lamboGold.buyNowButton:hover, .lamboGold.addToBagButton:hover  {
+  background-position:left bottom;
+  border: 1px solid #D8A016;
+  color: white;
+}
+
+/* ----------- Aston Martin CSS ---------- */
+
+.astonLogo {
+  height: 50px;
+  width: auto;
+}
+
+.astonGreen.buyNowButton {
+  background: linear-gradient(to right, #005530 50%, white 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.astonGreen.addToBagButton{
+  background: linear-gradient(to right, #005530 50%, #181818 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  color: white;
+}
+
+.astonGreen.buyNowButton:hover, .astonGreen.addToBagButton:hover  {
+  background-position:left bottom;
+  border: 1px solid #005530;
+  color: white;
+}
+
+/* ----------- Porsche CSS ---------- */
+
+.porscheLogo {
+  height: 50px;
+  width: auto;
+}
+
+.porscheRed.buyNowButton {
+  background: linear-gradient(to right, #B12B28 50%, white 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.porscheRed.addToBagButton{
+  background: linear-gradient(to right, #B12B28 50%, #181818 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  color: white;
+}
+
+.porscheRed.buyNowButton:hover, .porscheRed.addToBagButton:hover  {
+  background-position:left bottom;
+  border: 1px solid #B12B28;
+  color: white;
+}
+
+/* ----------- Mercedes CSS ---------- */
+
+.mercedesLogo {
+  height: 50px;
+  width: auto;
+}
+
+.mercedesSilver.buyNowButton {
+  background: linear-gradient(to right, #8FA0A5 50%, white 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+}
+
+.mercedesSilver.addToBagButton{
+  background: linear-gradient(to right, #8FA0A5 50%, #181818 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  color: white;
+}
+
+.mercedesSilver.buyNowButton:hover, .mercedesSilver.addToBagButton:hover  {
+  background-position:left bottom;
+  border: 1px solid #8FA0A5;
+  color: white;
+}
+
+@media only screen and (max-width: 1250px) {
+  .addToBagButton, .buyNowButton {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .CarFactoryMain{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .carFactoryIconsSideDiv{
+    display: none;
+  }
+  .carFactorySideTitle {
+    font-size: 1.1rem;
+  }
+  .carFactoryCarNamesSideDiv p {
+    font-size: 0.9rem;
+    margin: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .carFactoryCarContent {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .buyCarContainer {
+    align-self: center;
+  }
+  .buyCarTitle {
+    display: none;
+  }
+  .CarFactoryTitleContainer {
+    padding-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .CarFactoryMain{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+
+@media only screen and (max-width: 530px) {
+  .carFactoryMainImage {
+    width: 235px;
+    height: auto;
+  }
+  .addToBagButton, .buyNowButton {
+    font-size: 0.8rem;
+    width: 235px;
+  }
+  .CarFactoryTitleContainer {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0px;
+  }
+  .fillerDiv {
+    height: 165px;
+  }
+  .carFactorySideTab {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .carFactoryMainImage {
+    width: 200px;
+    height: auto;
+  }
+  .addToBagButton, .buyNowButton {
+    width: 200px;
+  }
+  .carFactorySideTitle {
+    font-size: 0.8rem;
+  }
+  .carFactoryCarNamesSideDiv p {
+    font-size: 0.7rem;
+  }
+  .buyCarContainer p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+}

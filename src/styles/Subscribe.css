@@ -1,0 +1,72 @@
+.subscribeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f0f0f0;
+  color: #181818;
+}
+
+.subscribeContainer p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.submitEmailDiv {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  max-width: 500px;
+}
+
+.subscribeButton {
+  border: 1px solid #181818;
+  border-radius: 25px;
+  width: 140px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  background: linear-gradient(to right, #da291c 50%, white 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 0.3s ease;
+  height: 44px;
+  align-self: center;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.subscribeButton:hover {
+  background-position:left bottom;
+  border-color: #da291c;
+  color: white;
+}
+
+#submitEmail {
+  height: 45px;
+  border-radius: 22.5px;
+  border: 1px solid #181818;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+#submitEmail:focus {
+  outline: none;
+  font-family: 'Work Sans', sans-serif;
+}
+
+@media only screen and (max-width: 650px) {
+  .subscribeContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .submitEmailDiv {
+    width: 60vw;
+  }
+}

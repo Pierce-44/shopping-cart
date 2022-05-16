@@ -1,0 +1,202 @@
+.allCarsMain {
+  
+  /* height: 2000px; */
+
+
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  
+  color: #181818;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.allCarImages:hover {
+  animation-name: scaleUp;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards; 
+}
+
+.allCarsSideTab {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 200px;
+  height: min-content;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.allCarsTitle {
+  border-bottom: 1px solid;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.fillerDiv {
+  height: 200px;
+}
+
+.allCarsSideTabDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carIconsSideDiv {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.carIconsSideDiv img {
+  height: 20px;
+  width: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  
+}
+
+.carNamesSideDiv p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #181818;
+}
+
+.ferrariHighLight {
+  background: linear-gradient(to right, #da291c 50%, #f0f0f0 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 0.3s ease;
+}
+
+.mclarenHighLight {
+  background: linear-gradient(to right, #ff8700 50%, #f0f0f0 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 0.3s ease;
+}
+
+.lamboHighLight {
+  background: linear-gradient(to right, #D8A016 50%, #f0f0f0 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 0.3s ease;
+}
+
+.porscheHighLight {
+  background: linear-gradient(to right, #B12B28 50%, #f0f0f0 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 0.3s ease;
+}
+
+.astonHighLight {
+  background: linear-gradient(to right, #005530 50%, #f0f0f0 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 0.3s ease;
+} 
+
+.mercedesHighLight {
+  background: linear-gradient(to right, #8FA0A5 50%, #f0f0f0 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 0.3s ease;
+} 
+
+
+
+.carNamesSideDiv p:hover {
+  background-position:left bottom;
+  color: white;
+}
+
+.allCarsSubContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 290px;
+  padding-left: 50px;
+}
+
+.allCarsDiv {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.allCarsDivBottom {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+@keyframes scaleUp {
+  100% {transform: scale(1.04);}
+}
+
+
+
+
+@media only screen and (max-width: 1500px) {
+  .allCarsSubContainer {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .allCarsDiv {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .allCarsDivBottom {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .allCarsMain{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .carIconsSideDiv {
+    display: none;
+  }
+  .carNamesSideDiv p {
+    font-size: 0.7rem;
+    padding-right: 0px;
+  }
+  .allCarsTitle {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .allCarsMain{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .allCarsSubContainer {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .allCarImages {
+    height: 120px;
+    width: auto;
+  }
+}

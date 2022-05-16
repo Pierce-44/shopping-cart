@@ -1,0 +1,30 @@
+.porschePageCarStats {
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: linear-gradient(to top, #B12B28 50%, #f0f0f0 50%);
+  background-size: 200% 200%;
+  background-position:bottom top;
+  transition:all 0.3s ease;
+  height: 200px;
+}
+
+.manufacturerPageCarsDivs:hover .porschePageCarStats {
+  background-position:left bottom;
+  color: white;
+}
+
+@media only screen and (max-width: 820px) {
+  .porschePageCarStats {
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .porschePageCarStats {
+    justify-content: flex-start;
+    height: auto;
+  }
+}
