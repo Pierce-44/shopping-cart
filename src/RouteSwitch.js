@@ -88,7 +88,7 @@ const RouteSwitch = () => {
   }));
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shopping-cart">
       <ScrollToTop>
         <dataProps.Provider value={dataPropsContainer}>
           <Routes>

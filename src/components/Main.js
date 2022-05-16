@@ -33,9 +33,11 @@ const Main = () => (
     <div className="mainContainerThree">
       <p className="carouselTitle">The Classic Ferrari F40</p>
       <MainCarousel />
-      <div className="shopButtonCarousel">
-        <p>SHOP</p>
-      </div>
+      <Link to="/car1" className="f40ShopLink">
+        <div className="shopButtonCarousel">
+          <p>SHOP</p>
+        </div>
+      </Link>
     </div>
   </div>
 );
