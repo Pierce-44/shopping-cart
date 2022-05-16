@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState } from 'react';
@@ -36,6 +37,10 @@ const Footer = () => {
     } else {
       setClassNameTwo('returnHide');
     }
+  };
+
+  const openGitHub = () => {
+    window.open('https://github.com/Pierce-44/shopping-cart', '_blank');
   };
 
   return (
@@ -145,7 +150,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="gitTag">
+      <div onClick={() => openGitHub()} className="gitTag">
         <img src={gitLogo} alt="" />
       </div>
     </div>
